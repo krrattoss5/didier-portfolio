@@ -7,7 +7,7 @@ interface Props {
 
 const Nav:React.FC<Props> = ({handleOpenMenu}) => {
   return (
-    <div className='w-[100%] sticky top-0 h-[12vh] bg-[#141c27] shadow-md'>
+    <div className='w-[100%] fixed top-0 h-[12vh] bg-[#141c27] shadow-md'>
       <div className='flex items-center justify-between w-[80%] mx-auto h-[100%]'>
         <h1 className='flex-[0.6] cursor-pointer text-[25px] text-white font-bold'>
           PORTFOLIO
