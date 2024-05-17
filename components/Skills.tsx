@@ -19,9 +19,9 @@ const Skills = () => {
               year='2023 - 2024'
             />
             <SkillsLanguage
-              skil1='HTML'
-              skil2='CSS'
-              skil3='Javascript'
+              skill1='HTML'
+              skill2='CSS'
+              skill3='Javascript'
               level1='w-[90%]'
               level2='w-[80%]'
               level3='w-[80%]'
@@ -37,9 +37,9 @@ const Skills = () => {
               year='2023 - 2024'
             />
             <SkillsLanguage
-              skil1='React Js'
-              skil2='Next Js'
-              skil3='Typescript'
+              skill1='React Js'
+              skill2='Next Js'
+              skill3='Typescript'
               level1='w-[90%]'
               level2='w-[80%]'
               level3='w-[80%]'
