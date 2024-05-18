@@ -2,3 +2,4 @@
 
 ## Heroicons
 
+## npm i react-multi-carousel
