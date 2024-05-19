@@ -7,6 +7,7 @@ import Projects from '@/components/Projects'
 import Services from '@/components/Services'
 import Skills from '@/components/Skills'
 import Testimonial from '@/components/Testimonial'
+import Footer from '@/components/Footer'
 import React, { useState } from 'react'
 
 const HomePage:React.FC = () => {
@@ -27,6 +28,7 @@ const HomePage:React.FC = () => {
         <Projects />
         <Testimonial />
         <Blog />
+        <Footer />
       </div>
     </div>
   )
