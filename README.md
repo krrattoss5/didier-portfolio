@@ -2,6 +2,16 @@
 
 ## Heroicons
 
+```sh
+  npm install @heroicons/react
+```
+
+## Particle
+
+```sh
+  npm install tsparticles-engine
+```
+
 ## Multi Carousel
 
 ```sh
