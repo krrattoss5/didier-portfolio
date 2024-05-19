@@ -1,4 +1,5 @@
 import About from '@/components/About'
+import Blog from '@/components/Blog'
 import Hero from '@/components/Hero'
 import MobileNav from '@/components/MobileNav'
 import Nav from '@/components/Nav'
@@ -25,6 +26,7 @@ const HomePage:React.FC = () => {
         <Skills />
         <Projects />
         <Testimonial />
+        <Blog />
       </div>
     </div>
   )
