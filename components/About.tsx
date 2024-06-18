@@ -1,6 +1,7 @@
 import { ArrowDownTrayIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image'
 import React from 'react'
+import CvButton from './CvButton'
 
 const About = () => {
   return (
@@ -15,10 +16,7 @@ const About = () => {
             <span data-aos='fade-right' className='w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
             <p  data-aos='fade-left' className='text-[19px] text-slate-300 w-[80%]'>Me apasiona aprender nuevas tecnologías y potenciar las que ya conozco, no me dan miedo los cambios, soy de los que transforman los vagones siempre creativo proponiendo nuevas posibilidades y alternativas, me gusta aportar valor de algún modo!</p>
           </div>
-          <button  data-aos='fade-up' className='px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2'>
-              <p>Descargar Cv</p>
-              <ArrowDownTrayIcon className='w-[1.6rem] h-[1.7rem] text-black' />
-          </button>
+          <CvButton />
         </div>
         <div data-aos='zoom-out' className='lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative'>
           <Image src='/images/about.jpg' alt='Didier FullStack Developer' layout='fill' objectFit='contain' className='relative z-[11] w-[100%] h-[100%] object-contain'/>
