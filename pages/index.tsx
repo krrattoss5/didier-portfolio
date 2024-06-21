@@ -53,7 +53,7 @@ AOS.init({
       <div className='relative z-30'>
         <About />
         <Services />
-        <Skills />
+        {/* <Skills /> */}
         <Projects />
         <Testimonial />
         {/* <Blog /> */}
