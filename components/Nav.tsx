@@ -13,12 +13,12 @@ const Nav:React.FC<Props> = ({handleOpenMenu}) => {
           PORTFOLIO
           <span className='text-yellow-300'>DEV</span>
         </h1>
-        <div className='nav-link'>Home</div>
-        <div className='nav-link'>SERVICES</div>
-        <div className='nav-link'>ABOUT</div>
-        <div className='nav-link'>PROJECTS</div>
-        <div className='nav-link'>BLOG</div>
-        <div className='nav-link'>CONTACT</div>
+        <div className='nav-link'>INICIO</div>
+        <div className='nav-link'>SERVICIOS</div>
+        <div className='nav-link'>SOBRE MI</div>
+        <div className='nav-link'>PROYECTOS</div>
+        {/* <div className='nav-link'>BLOG</div> */}
+        <div className='nav-link'>CONTACTO</div>
         <div onClick={handleOpenMenu}>
           <Bars3Icon className='w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300' />
         </div>
