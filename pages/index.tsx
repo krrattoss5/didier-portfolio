@@ -55,7 +55,7 @@ AOS.init({
         <Services />
         {/* <Skills /> */}
         <Projects />
-        <Testimonial />
+        {/* <Testimonial /> */}
         {/* <Blog /> */}
         <Footer />
       </div>
