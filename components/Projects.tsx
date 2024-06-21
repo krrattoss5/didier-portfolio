@@ -24,7 +24,7 @@ const Projects = () => {
   return (
     <div className="bg-[#02050a] pt-[4rem] md:pt-[8rem] pb-[1rem]">
       <h2 data-aos="fade-up" className="heading">
-        Pro<span className="text-yellow-400">jects</span>
+        Pro<span className="text-yellow-400">yectos</span>
       </h2>
       <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]">
 
